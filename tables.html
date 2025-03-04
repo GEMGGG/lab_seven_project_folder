@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>schedule tables</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin-bottom:20px;
+        }
+
+        th, td {
+            border: 2px solid rgba(184, 145, 225, 0.605);
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #d3cae5d7;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ede5f3ec;
+        }
+
+        .center_text{
+            text-align: center;
+        }
+
+        caption{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section style="color: rgba(12, 73, 202, 0.994)">
+            <table>
+                <caption>Weekly schedule</caption>
+                <thead>
+                    <tr>
+                        <th class="center_text">TIME</th>
+                        <th colspan="7" class="center_text">DAYS OF THE WEEK</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Morning</td>
+                        <td colspan="4">College classes</td>
+                        <td>Sleep</td>
+                        <td>Watch YouTube</td>
+                        <td>Play Video Games</td>
+                    </tr>
+                    <tr>
+                        <td>Afternoon</td>
+                        <td colspan="4">Pick sister up from school and do assignments</td>
+                        <td>Pick sister up from school</td>
+                        <td>Feed Snake</td>
+                        <td>Play Video Games</td>
+                    </tr>
+                    <tr>
+                        <td>Evening</td>
+                        <td colspan="4">Do assignments</td>
+                        <td>Go out with family</td>
+                        <td>Play Video Games</td>
+                        <td>Check Class Grades</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section style="color: rgba(199, 3, 3, 0.994)">
+            <table>
+                <caption>To-Do List</caption>
+                <thead>
+                    <tr>
+                        <th class="center_text">Importance</th>
+                        <th class="center_text">Task</th>
+                        <th class="center_text"> Due Dates</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>High</td>
+                        <td rowspan="2">Work on ENGL and programming assignments</td>
+                        <td>Feb 17</td>
+                    </tr>
+                    <tr>
+                        <td>High</td>
+                        <td>Feb 21</td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>Clean snake Terrarium</td>
+                        <td>Feb 23</td>
+                    </tr>
+                    <tr>
+                        <td>Low</td>
+                        <td>Clean my room</td>
+                        <td>Feb 26</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+</body>
+</html>

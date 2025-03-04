@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>contact page</title>
+</head>
+
+<body>
+    <section style="color: rgba(199, 3, 3, 0.994)">
+    <form action="contact_page.html" method="GET">
+        <h3>contact me anytime!</h3>
+        <p>Hello if you would like to reach out to me please fill out the necessary info below.</p>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="name" required>
+        <p>Subject<br>
+            <select name="subjects">
+                <option value="sponsorship-opportunities">Sponsorship Opportunities</option>
+                <option value="general-inquiry">General Inquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="business-inquiry">Business Inquiry</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+        <label for="message">Message:</label><br>
+        <textarea name="message" cols="30" rows="4"></textarea><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+    </section>
+    <br>
+    <section style="color: rgba(199, 3, 3, 0.994)">
+    <form>
+        <h3>Survey</h3>
+        <p>If you have time it would be great if you would do my survery,<br>there's only two questions and you can choose to write a comment or not!</p>
+        <p>How did you hear about my portfolio<br>
+            <select name="sources">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="co-worker">Co-Worker</option>
+                <option value="friend">Friend</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+        <p>Rate your overall experience with my site.<br>
+            <input type="radio" name="rating" value="1" /> 1 Terrible
+            <input type="radio" name="rating" value="2" /> 2 Bad
+            <input type="radio" name="rating" value="3" checked="checked" /> 3 Okay
+            <input type="radio" name="rating" value="4" /> 4 Good
+            <input type="radio" name="rating" value="5" /> 5 Great
+        </p>
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" cols="30" rows="4"></textarea><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</section>
+</body>
+</html>
